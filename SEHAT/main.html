@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.tab {
+  position:absolute;
+  text-decoration-line:none;
+
+  border-collapse: collapse;
+  top:222px;
+left:0px;
+	
+width:100%;
+	
+}
+th a
+{
+ text-decoration: none;
+font-size:20px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color:rgb(0, 0, 102);
+
+}
+
+th a:hover
+{
+font-size:23px;
+text-shadow: 2px 2px 5px red;
+}
+
+
+
+
+.logo
+{
+border:solid;
+border-color:orange;
+border-radius:20%;
+ position:absolute;
+top:10px;
+left:605px;
+}
+
+
+
+
+.container {
+	position:absolute;
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+
+top:37%;
+height:510px;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 9vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+color: black;
+  text-shadow: 2px 2px 4px #000000;
+  display: block;
+  text-align: center;
+  height: 9vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+ 
+body
+{
+overflow-x: hidden;
+}
+#sub1
+{
+position:relative;
+top:900px;
+
+}
+div.b1 {
+
+position:relative;
+top:930px;
+  width: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+float:left;
+height:360px;
+margin:18px;
+
+
+}
+
+div.b1:hover {
+  border: 1px solid rgb(255, 153, 128);
+
+box-shadow: 0 20px 30px rgba(0,0,0,.1);
+filter:drop-shadow(0 0 0.75rem crimson);
+
+}
+
+div.b1 img {
+  width: 100%;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+color: white;
+  
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-size: 3.8vh;
+}
+
+p
+{
+ color: green;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px yellow;
+font-size: 50px;
+}
+.we
+{
+position:absolute;
+top:1570px;
+float:left;
+color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px orange;
+
+}
+
+.mes
+{
+position:absolute;
+
+top:1700px;
+left:100px;
+}
+.mesi
+{
+position:absolute;
+top:1700px;
+left:220px;
+display:block;
+margin:4;
+width:100%;
+
+}
+.mo
+{
+display:block;
+font-size:20px;
+border:outset;
+border-radius: 5px;
+background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+}
+.nm
+{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sub
+{
+color: orange;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+#sub2
+{
+position:absolute;
+top:2100px;
+left:637px;
+}
+.b1
+{
+background-color:rgb(93,93,93);
+}
+
+div.b2 {
+
+position:relative;
+top:1760px;
+  width: 440px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+float:left;
+height:360px;
+margin:25px;
+padding:2;
+
+
+}
+
+div.b2:hover {
+  border: 1px solid rgb(255, 153, 128);
+
+box-shadow: 0 20px 30px rgba(0,0,0,.1);
+filter:drop-shadow(0 0 0.75rem crimson);
+
+}
+div.container
+{
+
+background-color:rgb(190,190,190);
+}
+.b2
+{
+
+
+background-color:rgb(93,93,93);
+}
+
+
+div.b2 img {
+  width: 100%;
+  
+}
+
+div.desc1 {
+  padding: 15px;
+  text-align: center;
+color: black;
+  text-shadow: 2px 2px 4px #000000;
+font-size: 3.8vh;
+
+}
+
+.end
+{
+position:absolute;
+top:3780px;
+
+width:100%;
+}
+#sub3
+{
+position:absolute;
+top:2780px;
+left:490px;
+}
+.pop
+{
+position:absolute;
+top:3500px;
+float:left;
+font-size:25px;
+border:outset;
+border-radius: 5px;
+height:20%;
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+img
+{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<a href="main.html"><img src="PICS/logo.jpg" width="200px" height="190px" class="logo"></a>
+<table class="tab" cellspacing="20" cellpadding="10" >
+<tr><th style="height:30px"><a href="main.html">HOME</a></td>
+<th style="height:30px"><a href="#sub1">AWARENESS</th>
+<th style="height:30px"><a href="#sub2">SERVICES</th>
+<th style="height:30px"><a href="#sub3">ABOUT US</th></tr>
+</table>
+<div class="container">
+  <div class="box">
+    <img src="PICS/pexels-cottonbro-3952234.jpg"  width="130px" height="80px">
+    <span>COGNIZANCE</span>
+  </div>
+  <div class="box">
+    <img src="PICS/vac.jpg"  width="30px" height="30px">
+    <span>SANITIZE</span>
+  </div>
+  <div class="box">
+    <img src="PICS/mask.jpg"  width="30px" height="30px">
+    <span>MASK YOURSELF</span>
+  </div>
+  <div class="box">
+    <img src="PICS/count.jpg"  width="300px" height="30px">
+    <span >PERVASIVE</span>
+  </div>
+</div>
+
+<center><p id="sub1">AWARENESS</p></center>
+<div class="b1">
+  <a target="_blank" href="b1.html">
+    <img class="im" src="PICS/about.jpg"  width="600" height="300">
+  </a>
+  <div class="desc">ABOUT CORONA</div>
+</div>
+
+<div class="b1">
+  <a target="_blank" href="b2.html">
+    <img class="im2" src="PICS/co.jpg"  width="600" height="300">
+  </a>
+  <div class="desc">VACCINES</div>
+</div>
+
+<div class="b1">
+  <a target="_blank" href="b3.html">
+    <img src="PICS/pre.jpg"  width="600" height="300">
+  </a>
+  <div class="desc">PRECAUTIONS</div>
+</div>
+</div>
+
+
+</div>
+<div class="we"><h1>WE, THE PEOPLE OF INDIA ....</h1><hr></div>
+<div class="mes">
+<img src="PICS/nm.jpg"class="nm" width="350px" height="270px"><br><center><h2 class="sub">SHREE NARENDRA MODI</h2></center></div>
+
+<div class="mesi">
+
+<marquee class="mo" hspace="30%" direction="up" height="140%">
+<b>"</b>Friends, you are well aware of the status of the Corona pandemic all over the world today.<br><br> You have been a partner as well as witness to the manner in which India has tried to stop the infection, compared to other countries.<br><br>I am well aware of the problems you have faced -some for food, some for movement from place to place, and others for staying away from homes and families. However, for the sake of your country, you are fulfilling your duties like a disciplined soldier.<br> <br>This is the power of ‘We, the People of India’ that our constitution talks about.<b>"</b>
+</marquee>
+</div>
+<br>
+<center><p id="sub2">SERVICES</p></center>
+<div class="b2">
+  <a target="_blank" href="aaro.html">
+    <img src="PICS/aaro.jpg"  width="600" height="300">
+  </a>
+  <div class="desc1">AAROGYA SETU</div>
+</div>
+
+<div class="b2">
+  <a target="_blank" href="reg.html">
+    <img src="PICS/reg.jpg"  width="600" height="300">
+  </a>
+  <div class="desc1">VACCINATION REGISTRATION</div>
+</div>
+
+<div class="b2">
+  <a target="_blank" href="help.html">
+    <img class="ui" src="PICS/help.jpg"  width="580" height="300">
+  </a>
+  <div class="desc1">HELPLINE</div>
+</div>
+
+<center><p id="sub3">ABOUT US<br><br><br><img class="log" src="PICS/logo.jpg" width="540" height="400"> </p></center>
+
+  <div class="pop"><center><b>SEHAT</b> is an initiative towards bridging the gap between the government and the people in this pandemic.<br> We strive to make every citizen to get acknowledged with the actions and norms which the govenment has been indulging inorder to prevent the spread of virus....To know more click this link -><a href="about.html" target="_blank">CLICK HERE</a></center></div>
+   
+
+
+<div class="end">
+<hr>
+<center>&copy;2021 SEHAT</center></div>
+
+
+
+
+
+</body>
+</body>
+</html>
